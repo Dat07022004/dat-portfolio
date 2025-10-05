@@ -4,6 +4,7 @@ import React from 'react'
 import { useMediaQuery } from 'react-responsive';
 import { Room } from './Room';
 import { HollowKnightSilksong } from './Hollow_knight_silksong'
+import HeroLights from './HeroLights';
 
 const HeroExperience = () => {
     const isTable = useMediaQuery({ query: '(max-width: 1024px)' });
@@ -23,9 +24,15 @@ const HeroExperience = () => {
                 maxPolarAngle={Math.PI / 2}
             />
 
-
-
-            <HollowKnightSilksong scale={5} position={[0, -1, 0]} rotation={[0, Math.PI, 0]} />
+        <HeroLights/>
+        <group
+            scale={isMobile? 0.7 : 1}
+            position={[0, -4, 0]}
+            rotation ={[0, -Math.PI /4, 0]}
+        >
+            <HollowKnightSilksong scale={10} position={[0, -1, 0]} rotation={[0, Math.PI, 0]} />
+        </group>
+            
 
         </Canvas>
     )
