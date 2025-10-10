@@ -24,15 +24,15 @@ const HeroExperience = () => {
                 maxPolarAngle={Math.PI / 2}
             />
 
-        <HeroLights/>
-        <group
-            scale={isMobile? 0.7 : 1}
-            position={[0, -4, 0]}
-            rotation ={[0, -Math.PI /4, 0]}
-        >
-            <HollowKnightSilksong scale={10} position={[0, -1, 0]} rotation={[0, Math.PI, 0]} />
-        </group>
-            
+            <HeroLights />
+            <group
+                scale={isMobile ? 0.7 : 1}
+                position={[0, -4, 0]}
+                rotation={[0, -Math.PI / 4, 0]}
+            >
+                <HollowKnightSilksong scale={8} position={[0, -1, 0]} rotation={[0, 0.7, 0]} />
+            </group>
+
 
         </Canvas>
     )

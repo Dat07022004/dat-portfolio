@@ -11,6 +11,7 @@ import React, { useMemo, useRef, useEffect } from 'react'
 import { useGraph } from '@react-three/fiber'
 import { useGLTF, useAnimations } from '@react-three/drei'
 import { SkeletonUtils } from 'three-stdlib'
+import { Sparkles } from '@react-three/drei'
 import * as THREE from 'three'
 
 export function HollowKnightSilksong(props) {
@@ -49,6 +50,8 @@ export function HollowKnightSilksong(props) {
 
   return (
     <group ref={group} {...props} dispose={null}>
+      <Sparkles count={2000} speed={2} opacity={1} scale={[30, 25, 30]} size={30} color="#e0f7ff" noise={1}
+      />
       <group name="Sketchfab_Scene">
         <group name="Sketchfab_model" rotation={[-Math.PI / 2, 0, 0]}>
           <group name="root">

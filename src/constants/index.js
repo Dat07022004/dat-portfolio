@@ -1,22 +1,9 @@
 const navLinks = [
-    {
-        name: "Work",
-        link: "#work",
-    },
-    {
-        name: "Experience",
-        link: "#experience",
-    },
-    {
-        name: "Skills",
-        link: "#skills",
-    },
-    {
-        name: "Testimonials",
-        link: "#testimonials",
-    },
+    { name: "Dự án", link: "#work" },
+    { name: "Kinh nghiệm", link: "#experience" },
+    { name: "Kỹ năng", link: "#skills" },
+    { name: "Đánh giá", link: "#testimonials" },
 ];
-
 const words = [
     { text: "Ideas", imgPath: "/images/ideas.svg" },
     { text: "Concepts", imgPath: "/images/concepts.svg" },
@@ -29,10 +16,10 @@ const words = [
 ];
 
 const counterItems = [
-    { value: 15, suffix: "+", label: "Years of Experience" },
-    { value: 200, suffix: "+", label: "Satisfied Clients" },
-    { value: 108, suffix: "+", label: "Completed Projects" },
-    { value: 90, suffix: "%", label: "Client Retention Rate" },
+    { value: 4, suffix: "+", label: "Năm đại học" },
+    { value: 10, suffix: "+", label: "Dự án học tập & cá nhân" },
+    { value: 5, suffix: "+", label: "Dự án nhóm thực hiện" },
+    { value: 100, suffix: "%", label: "Tinh thần học hỏi & phát triển" },
 ];
 
 const logoIconsList = [
@@ -74,71 +61,57 @@ const logoIconsList = [
 const abilities = [
     {
         imgPath: "/images/seo.png",
-        title: "Quality Focus",
-        desc: "Delivering high-quality results while maintaining attention to every detail.",
+        title: "Tinh thần học hỏi",
+        desc: "Luôn sẵn sàng tiếp thu kiến thức mới và chủ động nâng cao kỹ năng lập trình qua dự án thực tế.",
     },
     {
         imgPath: "/images/chat.png",
-        title: "Reliable Communication",
-        desc: "Keeping you updated at every step to ensure transparency and clarity.",
+        title: "Giao tiếp & làm việc nhóm",
+        desc: "Trao đổi rõ ràng, tích cực hợp tác trong các dự án nhóm để hoàn thành mục tiêu chung hiệu quả.",
     },
     {
         imgPath: "/images/time.png",
-        title: "On-Time Delivery",
-        desc: "Making sure projects are completed on schedule, with quality & attention to detail.",
+        title: "Trách nhiệm & đúng tiến độ",
+        desc: "Luôn cố gắng hoàn thành công việc đúng thời hạn và đảm bảo chất lượng trong từng nhiệm vụ được giao.",
     },
 ];
 
+
 const techStackImgs = [
-    {
-        name: "React Developer",
-        imgPath: "/images/logos/react.png",
-    },
-    {
-        name: "Python Developer",
-        imgPath: "/images/logos/python.svg",
-    },
-    {
-        name: "Backend Developer",
-        imgPath: "/images/logos/node.png",
-    },
-    {
-        name: "Interactive Developer",
-        imgPath: "/images/logos/three.png",
-    },
-    {
-        name: "Project Manager",
-        imgPath: "/images/logos/git.svg",
-    },
+    { name: "ReactJS", imgPath: "/images/logos/react.png" },
+    { name: "Python", imgPath: "/images/logos/python.svg" },
+    { name: "NodeJS", imgPath: "/images/logos/node.png" },
+    { name: "Three.js", imgPath: "/images/logos/three.png" },
+    { name: "Git & Quản lý dự án", imgPath: "/images/logos/git.svg" },
 ];
 
 const techStackIcons = [
     {
-        name: "React Developer",
+        name: "ReactJS",
         modelPath: "/models/react_logo-transformed.glb",
         scale: 1,
         rotation: [0, 0, 0],
     },
     {
-        name: "Python Developer",
+        name: "Python",
         modelPath: "/models/python-transformed.glb",
         scale: 0.8,
         rotation: [0, 0, 0],
     },
     {
-        name: "Backend Developer",
+        name: "NodeJS",
         modelPath: "/models/node-transformed.glb",
         scale: 5,
         rotation: [0, -Math.PI / 2, 0],
     },
     {
-        name: "Interactive Developer",
+        name: "Three.js",
         modelPath: "/models/three.js-transformed.glb",
         scale: 0.05,
         rotation: [0, 0, 0],
     },
     {
-        name: "Project Manager",
+        name: "Git & Quản lý dự án",
         modelPath: "/models/git-svg-transformed.glb",
         scale: 0.05,
         rotation: [0, -Math.PI / 4, 0],
@@ -148,41 +121,41 @@ const techStackIcons = [
 const expCards = [
     {
         review:
-            "Adrian brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",
+            "Đạt đã thể hiện tinh thần học hỏi nhanh và khả năng làm việc độc lập tốt trong các dự án học tập. Cậu ấy luôn chủ động tìm cách tối ưu mã nguồn và hỗ trợ nhóm khi cần.",
         imgPath: "/images/exp1.png",
         logoPath: "/images/logo1.png",
-        title: "Frontend Developer",
-        date: "January 2023 - Present",
+        title: "Thực tập sinh Frontend",
+        date: "06/2024 – 09/2024",
         responsibilities: [
-            "Developed and maintained user-facing features for the Hostinger website.",
-            "Collaborated closely with UI/UX designers to ensure seamless user experiences.",
-            "Optimized web applications for maximum speed and scalability.",
+            "Học và áp dụng ReactJS vào xây dựng giao diện web.",
+            "Thực hành làm việc nhóm với Git và quản lý task qua Trello.",
+            "Tối ưu trải nghiệm người dùng dựa trên phản hồi từ mentor.",
         ],
     },
     {
         review:
-            "Adrian’s contributions to Docker's web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
+            "Trong các dự án môn học, Đạt luôn là người chủ động xây dựng cấu trúc mã và tìm kiếm giải pháp hợp lý. Kỹ năng làm việc nhóm của cậu ấy tiến bộ rõ rệt qua từng kỳ học.",
         imgPath: "/images/exp2.png",
         logoPath: "/images/logo2.png",
-        title: "Full Stack Developer",
-        date: "June 2020 - December 2023",
+        title: "Dự án học phần Web nâng cao",
+        date: "09/2024 – 12/2024",
         responsibilities: [
-            "Led the development of Docker's web applications, focusing on scalability.",
-            "Worked with backend engineers to integrate APIs seamlessly with the frontend.",
-            "Contributed to open-source projects that were used with the Docker ecosystem.",
+            "Thiết kế và phát triển website bán hàng mini bằng C# và SQLServer.",
+            "Triển khai hệ thống đăng nhập và quản lý sản phẩm cơ bản.",
+            "Thuyết trình và báo cáo nhóm về kiến trúc dự án.",
         ],
     },
     {
         review:
-            "Adrian’s work on Appwrite’s mobile app brought a high level of quality and efficiency. He delivered solutions that enhanced our mobile experience & meet our product goals.",
+            "Đạt là sinh viên có đam mê với công nghệ, ham học hỏi và có tinh thần cầu tiến. Cậu ấy đã thể hiện năng lực tự học tốt trong các dự án cá nhân.",
         imgPath: "/images/exp3.png",
         logoPath: "/images/logo3.png",
-        title: "React Native Developer",
-        date: "March 2019 - May 2020",
+        title: "Dự án cá nhân – Portfolio Website",
+        date: "01/2025 – Hiện tại",
         responsibilities: [
-            "Built cross-platform mobile apps using React Native, integrating with Appwrite's backend services.",
-            "Improved app performance and user experience through code optimization and testing.",
-            "Coordinated with the product team to implement features based on feedback.",
+            "Tự thiết kế và lập trình website cá nhân bằng React và TailwindCSS.",
+            "Tích hợp hiệu ứng 3D bằng Three.js để tăng tính tương tác.",
+            "Triển khai website trên Vercel để chia sẻ với nhà tuyển dụng.",
         ],
     },
 ];
@@ -204,46 +177,25 @@ const expLogos = [
 
 const testimonials = [
     {
-        name: "Esther Howard",
-        mentions: "@estherhoward",
+        name: "Giảng viên hướng dẫn",
+        mentions: "@mentor",
         review:
-            "I can’t say enough good things about Adrian. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.",
+            "Đạt là sinh viên chăm chỉ, có tinh thần cầu tiến và nghiêm túc trong học tập. Luôn hoàn thành tốt các nhiệm vụ được giao trong đồ án và bài tập nhóm.",
         imgPath: "/images/client1.png",
     },
     {
-        name: "Wade Warren",
-        mentions: "@wadewarren",
+        name: "Bạn cùng nhóm",
+        mentions: "@teammate",
         review:
-            "Working with Adrian was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.",
-        imgPath: "/images/client3.png",
-    },
-    {
-        name: "Guy Hawkins",
-        mentions: "@guyhawkins",
-        review:
-            "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+            "Làm việc với Đạt rất dễ chịu. Bạn ấy luôn hỗ trợ và giữ tinh thần tích cực trong nhóm, đặc biệt là trong những giai đoạn áp lực của dự án.",
         imgPath: "/images/client2.png",
     },
     {
-        name: "Marvin McKinney",
-        mentions: "@marvinmckinney",
+        name: "Người hướng dẫn thực tập",
+        mentions: "@internmentor",
         review:
-            "Adrian was a pleasure to work with. He turned our outdated website into a fresh, intuitive platform that’s both modern and easy to navigate. Fantastic work overall.",
-        imgPath: "/images/client5.png",
-    },
-    {
-        name: "Floyd Miles",
-        mentions: "@floydmiles",
-        review:
-            "Adrian’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional!",
-        imgPath: "/images/client4.png",
-    },
-    {
-        name: "Albert Flores",
-        mentions: "@albertflores",
-        review:
-            "Adrian was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend and backend dev are top-notch.",
-        imgPath: "/images/client6.png",
+            "Trong kỳ thực tập, Đạt đã thể hiện thái độ học hỏi tốt và khả năng nắm bắt công nghệ nhanh. Cậu ấy có tiềm năng phát triển thành một lập trình viên giỏi trong tương lai.",
+        imgPath: "/images/client3.png",
     },
 ];
 
