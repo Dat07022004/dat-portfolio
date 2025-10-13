@@ -30,6 +30,21 @@ const Hero = () => {
             <div className="hero-layout">
                 <header className="flex flex-col justify-center md:w-full w-screen md:px-20 px-5">
                     <div className="flex flex-col gap-7">
+                        {/* Personal Info Badge */}
+                        <div className="flex flex-col gap-2 relative z-10">
+                            <div className="inline-flex items-center gap-2 bg-gradient-to-r from-blue-500/10 to-purple-500/10 border border-blue-500/20 rounded-full px-4 py-2 w-fit backdrop-blur-sm">
+                                <span className="relative flex h-2 w-2">
+                                    <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
+                                    <span className="relative inline-flex rounded-full h-2 w-2 bg-green-500"></span>
+                                </span>
+                                <span className="text-white-50 text-sm md:text-base">Sinh viên năm 4 • HUTECH</span>
+                            </div>
+                            <h2 className="text-white-100 text-xl md:text-2xl font-semibold">
+                                Nguyễn Thành Đạt
+                            </h2>
+                        </div>
+
+                        {/* Hero Text */}
                         <div className="hero-text">
                             <h1>
                                 Biến đổi
@@ -51,13 +66,32 @@ const Hero = () => {
                             <h1>thành Dự án Thực tế</h1>
                             <h1>mang lại Hiệu quả</h1>
                         </div>
-                        <p className='text-white-50 md:text-xl relative z-10 pointer-events-none'>
-                            Xin chào, mình là Đạt, một lập trình viên trẻ đầy nhiệt huyết ✨
-                        </p>
+
+                        {/* Description */}
+                        <div className="flex flex-col gap-3 relative z-10">
+                            <p className='text-white-50 md:text-xl leading-relaxed'>
+                                Xin chào! 👋 Mình là Đạt, một lập trình viên đầy nhiệt huyết với niềm đam mê
+                                công nghệ và sáng tạo. Mình chuyên phát triển các ứng dụng web hiện đại
+                                với React, Three.js và NextJs.
+                            </p>
+                            <div className="flex flex-wrap gap-2">
+                                <span className="px-3 py-1 bg-blue-500/10 border border-blue-500/30 rounded-full text-blue-300 text-sm">
+                                    Full-stack Developer
+                                </span>
+                                <span className="px-3 py-1 bg-purple-500/10 border border-purple-500/30 rounded-full text-purple-300 text-sm">
+                                    3D Web Enthusiast
+                                </span>
+                                <span className="px-3 py-1 bg-green-500/10 border border-green-500/30 rounded-full text-green-300 text-sm">
+                                    Problem Solver
+                                </span>
+                            </div>
+                        </div>
+
+                        {/* CTA Button */}
                         <Button
-                            className="md:2-80 md:h-16 w-60 h-12"
+                            className="md:w-80 md:h-16 w-60 h-12 mt-2"
                             id="button"
-                            text="Bắt đầu ngay"
+                            text="Khám phá Portfolio"
                         />
                     </div>
                 </header>
