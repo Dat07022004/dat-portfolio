@@ -32,13 +32,23 @@ const Hero = () => {
                     <div className="flex flex-col gap-7">
                         {/* Personal Info Badge */}
                         <div className="flex flex-col gap-2 relative z-10">
-                            <div className="inline-flex items-center gap-2 bg-gradient-to-r from-blue-500/10 to-purple-500/10 border border-blue-500/20 rounded-full px-4 py-2 w-fit backdrop-blur-sm">
-                                <span className="relative flex h-2 w-2">
-                                    <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
-                                    <span className="relative inline-flex rounded-full h-2 w-2 bg-green-500"></span>
-                                </span>
-                                <span className="text-white-50 text-sm md:text-base">Sinh viên năm 4 • HUTECH</span>
+                            <div className='flex flex-row gap-2'>
+                                <div className="inline-flex items-center gap-2 bg-gradient-to-r from-blue-500/10 to-purple-500/10 border border-blue-500/20 rounded-full px-4 py-2 w-fit backdrop-blur-sm">
+                                    <span className="relative flex h-2 w-2">
+                                        <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
+                                        <span className="relative inline-flex rounded-full h-2 w-2 bg-green-500"></span>
+                                    </span>
+                                    <span className="text-white-50 text-sm md:text-base">Sinh viên năm 4 • HUTECH</span>
+                                </div>
+                                <div className="inline-flex items-center gap-2 bg-gradient-to-r from-blue-500/10 to-purple-500/10 border border-blue-500/20 rounded-full px-4 py-2 w-fit backdrop-blur-sm">
+                                    <span className="relative flex h-2 w-2">
+                                        <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
+                                        <span className="relative inline-flex rounded-full h-2 w-2 bg-green-500"></span>
+                                    </span>
+                                    <span className="text-white-50 text-sm md:text-base">CPA: 3.3</span>
+                                </div>
                             </div>
+
                             <h2 className="text-white-100 text-xl md:text-2xl font-semibold">
                                 Nguyễn Thành Đạt
                             </h2>
