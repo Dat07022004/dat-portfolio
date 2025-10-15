@@ -316,7 +316,7 @@ section {
   }
 
   .form-group {
-    @apply relative group;
+    @apply relative;
   }
 
   .form-label {

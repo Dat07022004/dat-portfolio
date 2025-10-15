@@ -10,7 +10,7 @@ const ContactExperience = ({ className = '' }) => {
                 <ambientLight intensity={0.8} />
                 <directionalLight position={[10, 50, 50]} intensity={1} />
                 <Suspense fallback={null}>
-                    <group scale={0.6} position={[0, -1.5, -2]}>
+                    <group scale={0.6} position={[0, -10, -2]}>
                         <Model />
                     </group>
                     <Environment preset="city" />
