@@ -1,238 +1,238 @@
 const navLinks = [
-    { name: "Dự án", link: "#work" },
-    { name: "Kinh nghiệm", link: "#experience" },
-    { name: "Kỹ năng", link: "#skills" },
-    { name: "Blog", link: "#blog" },
-    { name: "Liên hệ", link: "#contact" },
+  { name: "Dự án", link: "#work" },
+  { name: "Kinh nghiệm", link: "#experience" },
+  { name: "Kỹ năng", link: "#skills" },
+  { name: "Blog", link: "#blog" },
+  { name: "Liên hệ", link: "#contact" },
 ];
 const words = [
-    { text: "Ideas", imgPath: "/images/ideas.svg" },
-    { text: "Concepts", imgPath: "/images/concepts.svg" },
-    { text: "Designs", imgPath: "/images/designs.svg" },
-    { text: "Code", imgPath: "/images/code.svg" },
-    { text: "Ideas", imgPath: "/images/ideas.svg" },
-    { text: "Concepts", imgPath: "/images/concepts.svg" },
-    { text: "Designs", imgPath: "/images/designs.svg" },
-    { text: "Code", imgPath: "/images/code.svg" },
+  { text: "Ideas", imgPath: "/images/ideas.svg" },
+  { text: "Concepts", imgPath: "/images/concepts.svg" },
+  { text: "Designs", imgPath: "/images/designs.svg" },
+  { text: "Code", imgPath: "/images/code.svg" },
+  { text: "Ideas", imgPath: "/images/ideas.svg" },
+  { text: "Concepts", imgPath: "/images/concepts.svg" },
+  { text: "Designs", imgPath: "/images/designs.svg" },
+  { text: "Code", imgPath: "/images/code.svg" },
 ];
 
 const counterItems = [
-    { value: 4, suffix: "+", label: "Năm đại học" },
-    { value: 10, suffix: "+", label: "Dự án học tập & cá nhân" },
-    { value: 5, suffix: "+", label: "Dự án nhóm thực hiện" },
-    { value: 100, suffix: "%", label: "Tinh thần học hỏi & phát triển" },
+  { value: 4, suffix: "+", label: "Năm đại học" },
+  { value: 10, suffix: "+", label: "Dự án học tập & cá nhân" },
+  { value: 5, suffix: "+", label: "Dự án nhóm thực hiện" },
+  { value: 100, suffix: "%", label: "Tinh thần học hỏi & phát triển" },
 ];
 
 const logoIconsList = [
-    {
-        imgPath: "/images/logos/company-logo-1.png",
-    },
-    {
-        imgPath: "/images/logos/company-logo-2.png",
-    },
-    {
-        imgPath: "/images/logos/company-logo-3.png",
-    },
-    {
-        imgPath: "/images/logos/company-logo-4.png",
-    },
-    {
-        imgPath: "/images/logos/company-logo-5.png",
-    },
-    {
-        imgPath: "/images/logos/company-logo-6.png",
-    },
-    {
-        imgPath: "/images/logos/company-logo-7.png",
-    },
-    {
-        imgPath: "/images/logos/company-logo-8.png",
-    },
-    {
-        imgPath: "/images/logos/company-logo-9.png",
-    },
-    {
-        imgPath: "/images/logos/company-logo-10.png",
-    },
-    {
-        imgPath: "/images/logos/company-logo-11.png",
-    },
+  {
+    imgPath: "/images/logos/company-logo-1.png",
+  },
+  {
+    imgPath: "/images/logos/company-logo-2.png",
+  },
+  {
+    imgPath: "/images/logos/company-logo-3.png",
+  },
+  {
+    imgPath: "/images/logos/company-logo-4.png",
+  },
+  {
+    imgPath: "/images/logos/company-logo-5.png",
+  },
+  {
+    imgPath: "/images/logos/company-logo-6.png",
+  },
+  {
+    imgPath: "/images/logos/company-logo-7.png",
+  },
+  {
+    imgPath: "/images/logos/company-logo-8.png",
+  },
+  {
+    imgPath: "/images/logos/company-logo-9.png",
+  },
+  {
+    imgPath: "/images/logos/company-logo-10.png",
+  },
+  {
+    imgPath: "/images/logos/company-logo-11.png",
+  },
 ];
 
 const abilities = [
-    {
-        imgPath: "/images/seo.png",
-        title: "Tinh thần học hỏi",
-        desc: "Luôn sẵn sàng tiếp thu kiến thức mới và chủ động nâng cao kỹ năng lập trình qua dự án thực tế.",
-    },
-    {
-        imgPath: "/images/chat.png",
-        title: "Giao tiếp & làm việc nhóm",
-        desc: "Trao đổi rõ ràng, tích cực hợp tác trong các dự án nhóm để hoàn thành mục tiêu chung hiệu quả.",
-    },
-    {
-        imgPath: "/images/time.png",
-        title: "Trách nhiệm & đúng tiến độ",
-        desc: "Luôn cố gắng hoàn thành công việc đúng thời hạn và đảm bảo chất lượng trong từng nhiệm vụ được giao.",
-    },
+  {
+    imgPath: "/images/seo.png",
+    title: "Tinh thần học hỏi",
+    desc: "Luôn sẵn sàng tiếp thu kiến thức mới và chủ động nâng cao kỹ năng lập trình qua dự án thực tế.",
+  },
+  {
+    imgPath: "/images/chat.png",
+    title: "Giao tiếp & làm việc nhóm",
+    desc: "Trao đổi rõ ràng, tích cực hợp tác trong các dự án nhóm để hoàn thành mục tiêu chung hiệu quả.",
+  },
+  {
+    imgPath: "/images/time.png",
+    title: "Trách nhiệm & đúng tiến độ",
+    desc: "Luôn cố gắng hoàn thành công việc đúng thời hạn và đảm bảo chất lượng trong từng nhiệm vụ được giao.",
+  },
 ];
 
 
 const techStackImgs = [
-    { name: "ReactJS", imgPath: "/images/logos/react.png" },
-    { name: "Python", imgPath: "/images/logos/python.svg" },
-    { name: "NodeJS", imgPath: "/images/logos/node.png" },
-    { name: "Three.js", imgPath: "/images/logos/three.png" },
-    { name: "Git & Quản lý dự án", imgPath: "/images/logos/git.svg" },
+  { name: "ReactJS", imgPath: "/images/logos/react.png" },
+  { name: "Python", imgPath: "/images/logos/python.svg" },
+  { name: "NodeJS", imgPath: "/images/logos/node.png" },
+  { name: "Three.js", imgPath: "/images/logos/three.png" },
+  { name: "Git & Quản lý dự án", imgPath: "/images/logos/git.svg" },
 ];
 
 const techStackIcons = [
-    {
-        name: "ReactJS",
-        modelPath: "/models/react_logo-transformed.glb",
-        scale: 1,
-        rotation: [0, 0, 0],
-    },
-    {
-        name: "Python",
-        modelPath: "/models/python-transformed.glb",
-        scale: 0.8,
-        rotation: [0, 0, 0],
-    },
-    {
-        name: "NodeJS",
-        modelPath: "/models/node-transformed.glb",
-        scale: 5,
-        rotation: [0, -Math.PI / 2, 0],
-    },
-    {
-        name: "Three.js",
-        modelPath: "/models/three.js-transformed.glb",
-        scale: 0.05,
-        rotation: [0, 0, 0],
-    },
-    {
-        name: "Git & Quản lý dự án",
-        modelPath: "/models/git-svg-transformed.glb",
-        scale: 0.05,
-        rotation: [0, -Math.PI / 4, 0],
-    },
+  {
+    name: "ReactJS",
+    modelPath: "/models/react_logo-transformed.glb",
+    scale: 1,
+    rotation: [0, 0, 0],
+  },
+  {
+    name: "Python",
+    modelPath: "/models/python-transformed.glb",
+    scale: 0.8,
+    rotation: [0, 0, 0],
+  },
+  {
+    name: "NodeJS",
+    modelPath: "/models/node-transformed.glb",
+    scale: 5,
+    rotation: [0, -Math.PI / 2, 0],
+  },
+  {
+    name: "Three.js",
+    modelPath: "/models/three.js-transformed.glb",
+    scale: 0.05,
+    rotation: [0, 0, 0],
+  },
+  {
+    name: "Git & Quản lý dự án",
+    modelPath: "/models/git-svg-transformed.glb",
+    scale: 0.05,
+    rotation: [0, -Math.PI / 4, 0],
+  },
 ];
 
 const expCards = [
-    {
-        review:
-            "Đạt đã thể hiện tinh thần học hỏi nhanh và khả năng làm việc độc lập tốt trong các dự án học tập. Cậu ấy luôn chủ động tìm cách tối ưu mã nguồn và hỗ trợ nhóm khi cần.",
-        imgPath: "/images/exp1.png",
-        logoPath: "/images/logo1.png",
-        title: "Thực tập sinh Frontend",
-        date: "06/2024 – 09/2024",
-        responsibilities: [
-            "Học và áp dụng ReactJS vào xây dựng giao diện web.",
-            "Thực hành làm việc nhóm với Git và quản lý task qua Trello.",
-            "Tối ưu trải nghiệm người dùng dựa trên phản hồi từ mentor.",
-        ],
-    },
-    {
-        review:
-            "Trong các dự án môn học, Đạt luôn là người chủ động xây dựng cấu trúc mã và tìm kiếm giải pháp hợp lý. Kỹ năng làm việc nhóm của cậu ấy tiến bộ rõ rệt qua từng kỳ học.",
-        imgPath: "/images/exp2.png",
-        logoPath: "/images/logo2.png",
-        title: "Dự án học phần Web nâng cao",
-        date: "09/2024 – 12/2024",
-        responsibilities: [
-            "Thiết kế và phát triển website bán hàng mini bằng C# và SQLServer.",
-            "Triển khai hệ thống đăng nhập và quản lý sản phẩm cơ bản.",
-            "Thuyết trình và báo cáo nhóm về kiến trúc dự án.",
-        ],
-    },
-    {
-        review:
-            "Đạt là sinh viên có đam mê với công nghệ, ham học hỏi và có tinh thần cầu tiến. Cậu ấy đã thể hiện năng lực tự học tốt trong các dự án cá nhân.",
-        imgPath: "/images/exp3.png",
-        logoPath: "/images/logo3.png",
-        title: "Dự án cá nhân – Portfolio Website",
-        date: "01/2025 – Hiện tại",
-        responsibilities: [
-            "Tự thiết kế và lập trình website cá nhân bằng React và TailwindCSS.",
-            "Tích hợp hiệu ứng 3D bằng Three.js để tăng tính tương tác.",
-            "Triển khai website trên Vercel để chia sẻ với nhà tuyển dụng.",
-        ],
-    },
+  {
+    review:
+      "Đạt đã thể hiện tinh thần học hỏi nhanh và khả năng làm việc độc lập tốt trong các dự án học tập. Cậu ấy luôn chủ động tìm cách tối ưu mã nguồn và hỗ trợ nhóm khi cần.",
+    imgPath: "/images/exp1.png",
+    logoPath: "/images/logo1.png",
+    title: "Thực tập sinh Frontend",
+    date: "06/2024 – 09/2024",
+    responsibilities: [
+      "Học và áp dụng ReactJS vào xây dựng giao diện web.",
+      "Thực hành làm việc nhóm với Git và quản lý task qua Trello.",
+      "Tối ưu trải nghiệm người dùng dựa trên phản hồi từ mentor.",
+    ],
+  },
+  {
+    review:
+      "Trong các dự án môn học, Đạt luôn là người chủ động xây dựng cấu trúc mã và tìm kiếm giải pháp hợp lý. Kỹ năng làm việc nhóm của cậu ấy tiến bộ rõ rệt qua từng kỳ học.",
+    imgPath: "/images/exp2.png",
+    logoPath: "/images/logo2.png",
+    title: "Dự án học phần Web nâng cao",
+    date: "09/2024 – 12/2024",
+    responsibilities: [
+      "Thiết kế và phát triển website bán hàng mini bằng C# và SQLServer.",
+      "Triển khai hệ thống đăng nhập và quản lý sản phẩm cơ bản.",
+      "Thuyết trình và báo cáo nhóm về kiến trúc dự án.",
+    ],
+  },
+  {
+    review:
+      "Đạt là sinh viên có đam mê với công nghệ, ham học hỏi và có tinh thần cầu tiến. Cậu ấy đã thể hiện năng lực tự học tốt trong các dự án cá nhân.",
+    imgPath: "/images/exp3.png",
+    logoPath: "/images/logo3.png",
+    title: "Dự án cá nhân – Portfolio Website",
+    date: "01/2025 – Hiện tại",
+    responsibilities: [
+      "Tự thiết kế và lập trình website cá nhân bằng React và TailwindCSS.",
+      "Tích hợp hiệu ứng 3D bằng Three.js để tăng tính tương tác.",
+      "Triển khai website trên Vercel để chia sẻ với nhà tuyển dụng.",
+    ],
+  },
 ];
 
 const expLogos = [
-    {
-        name: "logo1",
-        imgPath: "/images/logo1.png",
-    },
-    {
-        name: "logo2",
-        imgPath: "/images/logo2.png",
-    },
-    {
-        name: "logo3",
-        imgPath: "/images/logo3.png",
-    },
+  {
+    name: "logo1",
+    imgPath: "/images/logo1.png",
+  },
+  {
+    name: "logo2",
+    imgPath: "/images/logo2.png",
+  },
+  {
+    name: "logo3",
+    imgPath: "/images/logo3.png",
+  },
 ];
 
 const testimonials = [
-    {
-        name: "Giảng viên hướng dẫn",
-        mentions: "@mentor",
-        review:
-            "Đạt là sinh viên chăm chỉ, có tinh thần cầu tiến và nghiêm túc trong học tập. Luôn hoàn thành tốt các nhiệm vụ được giao trong đồ án và bài tập nhóm.",
-        imgPath: "/images/client1.png",
-    },
-    {
-        name: "Bạn cùng nhóm",
-        mentions: "@teammate",
-        review:
-            "Làm việc với Đạt rất dễ chịu. Bạn ấy luôn hỗ trợ và giữ tinh thần tích cực trong nhóm, đặc biệt là trong những giai đoạn áp lực của dự án.",
-        imgPath: "/images/client2.png",
-    },
-    {
-        name: "Người hướng dẫn thực tập",
-        mentions: "@internmentor",
-        review:
-            "Trong kỳ thực tập, Đạt đã thể hiện thái độ học hỏi tốt và khả năng nắm bắt công nghệ nhanh. Cậu ấy có tiềm năng phát triển thành một lập trình viên giỏi trong tương lai.",
-        imgPath: "/images/client3.png",
-    },
+  {
+    name: "Giảng viên hướng dẫn",
+    mentions: "@mentor",
+    review:
+      "Đạt là sinh viên chăm chỉ, có tinh thần cầu tiến và nghiêm túc trong học tập. Luôn hoàn thành tốt các nhiệm vụ được giao trong đồ án và bài tập nhóm.",
+    imgPath: "/images/client1.png",
+  },
+  {
+    name: "Bạn cùng nhóm",
+    mentions: "@teammate",
+    review:
+      "Làm việc với Đạt rất dễ chịu. Bạn ấy luôn hỗ trợ và giữ tinh thần tích cực trong nhóm, đặc biệt là trong những giai đoạn áp lực của dự án.",
+    imgPath: "/images/client2.png",
+  },
+  {
+    name: "Người hướng dẫn thực tập",
+    mentions: "@internmentor",
+    review:
+      "Trong kỳ thực tập, Đạt đã thể hiện thái độ học hỏi tốt và khả năng nắm bắt công nghệ nhanh. Cậu ấy có tiềm năng phát triển thành một lập trình viên giỏi trong tương lai.",
+    imgPath: "/images/client3.png",
+  },
 ];
 
 const socialImgs = [
-    {
-        name: "insta",
-        url: "https://www.instagram.com/",
-        imgPath: "/images/insta.png",
-    },
-    {
-        name: "fb",
-        url: "https://www.facebook.com/",
-        imgPath: "/images/fb.png",
-    },
-    {
-        name: "x",
-        url: "https://www.x.com/",
-        imgPath: "/images/x.png",
-    },
-    {
-        name: "linkedin",
-        url: "https://www.linkedin.com/",
-        imgPath: "/images/linkedin.png",
-    },
+  {
+    name: "insta",
+    url: "https://www.instagram.com/",
+    imgPath: "/images/insta.png",
+  },
+  {
+    name: "fb",
+    url: "https://www.facebook.com/",
+    imgPath: "/images/fb.png",
+  },
+  {
+    name: "x",
+    url: "https://www.x.com/",
+    imgPath: "/images/x.png",
+  },
+  {
+    name: "linkedin",
+    url: "https://www.linkedin.com/",
+    imgPath: "/images/linkedin.png",
+  },
 ];
 
 const blogPosts = [
-    {
-        id: 1,
-        title: "Hiểu rõ về Java Collections Framework",
-        excerpt: "Khám phá các cấu trúc dữ liệu quan trọng trong Java như ArrayList, HashMap, HashSet và cách sử dụng chúng hiệu quả trong dự án thực tế.",
-        date: "15/09/2024",
-        category: "Java",
-        readTime: "8 phút đọc",
-        tags: ["Java", "Collections", "Data Structures"],
-        content: `
+  {
+    id: 1,
+    title: "Hiểu rõ về Java Collections Framework",
+    excerpt: "Khám phá các cấu trúc dữ liệu quan trọng trong Java như ArrayList, HashMap, HashSet và cách sử dụng chúng hiệu quả trong dự án thực tế.",
+    date: "15/09/2024",
+    category: "Java",
+    readTime: "8 phút đọc",
+    tags: ["Java", "Collections", "Data Structures"],
+    content: `
 ## Giới thiệu
 
 Java Collections Framework là một kiến trúc thống nhất để lưu trữ và thao tác các nhóm đối tượng. Framework này cung cấp các interface (Set, List, Queue, Map) và các implementation classes (ArrayList, LinkedList, HashSet, HashMap, TreeSet, TreeMap...).
@@ -292,16 +292,16 @@ int johnAge = ages.get("John"); // 25
 
 Hiểu rõ Collections Framework giúp bạn viết code hiệu quả và dễ maintain hơn. Hãy chọn đúng collection cho từng use case!
         `
-    },
-    {
-        id: 2,
-        title: "JavaScript ES6+: Arrow Functions và This Context",
-        excerpt: "Tìm hiểu cách arrow functions hoạt động khác với function thông thường, đặc biệt về lexical this binding và khi nào nên sử dụng.",
-        date: "10/09/2024",
-        category: "JavaScript",
-        readTime: "6 phút đọc",
-        tags: ["JavaScript", "ES6", "Functions"],
-        content: `
+  },
+  {
+    id: 2,
+    title: "JavaScript ES6+: Arrow Functions và This Context",
+    excerpt: "Tìm hiểu cách arrow functions hoạt động khác với function thông thường, đặc biệt về lexical this binding và khi nào nên sử dụng.",
+    date: "10/09/2024",
+    category: "JavaScript",
+    readTime: "6 phút đọc",
+    tags: ["JavaScript", "ES6", "Functions"],
+    content: `
 ## Arrow Functions là gì?
 
 Arrow functions là cú pháp ngắn gọn hơn để viết function expressions trong JavaScript, được giới thiệu trong ES6.
@@ -375,16 +375,16 @@ const person = {
 
 Arrow functions làm code ngắn gọn và giải quyết vấn đề \`this\` binding. Hiểu rõ sự khác biệt giúp bạn chọn đúng syntax!
         `
-    },
-    {
-        id: 3,
-        title: "Spring Boot: Xây dựng RESTful API từ đầu",
-        excerpt: "Hướng dẫn chi tiết cách tạo một RESTful API với Spring Boot, bao gồm các annotations quan trọng và best practices.",
-        date: "05/09/2024",
-        category: "Java",
-        readTime: "12 phút đọc",
-        tags: ["Java", "Spring Boot", "REST API"],
-        content: `
+  },
+  {
+    id: 3,
+    title: "Spring Boot: Xây dựng RESTful API từ đầu",
+    excerpt: "Hướng dẫn chi tiết cách tạo một RESTful API với Spring Boot, bao gồm các annotations quan trọng và best practices.",
+    date: "05/09/2024",
+    category: "Java",
+    readTime: "12 phút đọc",
+    tags: ["Java", "Spring Boot", "REST API"],
+    content: `
 ## Giới thiệu Spring Boot
 
 Spring Boot là framework mạnh mẽ giúp đơn giản hóa việc phát triển ứng dụng Java, đặc biệt là RESTful APIs. Với cấu hình tự động và embedded server, bạn có thể tạo một API hoàn chỉnh trong vài phút.
@@ -639,16 +639,16 @@ Spring Boot giúp việc xây dựng RESTful API trở nên đơn giản và nha
 - Implement Swagger cho API documentation
 - Deploy lên cloud (Heroku, AWS, Azure)
         `
-    },
-    {
-        id: 4,
-        title: "Async/Await trong JavaScript: Viết code bất đồng bộ dễ đọc hơn",
-        excerpt: "Làm chủ async/await để xử lý các tác vụ bất đồng bộ một cách rõ ràng, tránh callback hell và Promise chains phức tạp.",
-        date: "28/08/2024",
-        category: "JavaScript",
-        readTime: "10 phút đọc",
-        tags: ["JavaScript", "Async", "Promises"],
-        content: `
+  },
+  {
+    id: 4,
+    title: "Async/Await trong JavaScript: Viết code bất đồng bộ dễ đọc hơn",
+    excerpt: "Làm chủ async/await để xử lý các tác vụ bất đồng bộ một cách rõ ràng, tránh callback hell và Promise chains phức tạp.",
+    date: "28/08/2024",
+    category: "JavaScript",
+    readTime: "10 phút đọc",
+    tags: ["JavaScript", "Async", "Promises"],
+    content: `
 ## Tại sao cần Async/Await?
 
 JavaScript là single-threaded, nhưng nhiều tác vụ như API calls, file operations, timers cần thời gian để hoàn thành. Async/await giúp viết asynchronous code trông giống synchronous code, dễ đọc và maintain hơn.
@@ -956,16 +956,16 @@ Async/await làm asynchronous code dễ đọc như synchronous code, giúp:
 
 Hãy practice với các API calls thực tế để master async/await!
         `
-    },
-    {
-        id: 5,
-        title: "Java Stream API: Xử lý dữ liệu hiệu quả",
-        excerpt: "Tận dụng sức mạnh của Stream API để filter, map, reduce dữ liệu một cách functional và dễ bảo trì.",
-        date: "20/08/2024",
-        category: "Java",
-        readTime: "9 phút đọc",
-        tags: ["Java", "Stream API", "Functional Programming"],
-        content: `
+  },
+  {
+    id: 5,
+    title: "Java Stream API: Xử lý dữ liệu hiệu quả",
+    excerpt: "Tận dụng sức mạnh của Stream API để filter, map, reduce dữ liệu một cách functional và dễ bảo trì.",
+    date: "20/08/2024",
+    category: "Java",
+    readTime: "9 phút đọc",
+    tags: ["Java", "Stream API", "Functional Programming"],
+    content: `
 ## Stream API là gì?
 
 Stream API (Java 8+) là một cách hiện đại để xử lý collections theo phong cách functional programming. Stream không phải là data structure, mà là một pipeline operations để transform data.
@@ -1313,16 +1313,16 @@ long count = users.parallelStream()
 
 Stream API biến code imperative thành declarative, dễ đọc và maintain. Practice với các use cases thực tế để master Stream API!
         `
-    },
-    {
-        id: 6,
-        title: "React Hooks với JavaScript: useState và useEffect",
-        excerpt: "Hiểu sâu về hai hooks cơ bản nhất trong React - useState để quản lý state và useEffect để xử lý side effects.",
-        date: "12/08/2024",
-        category: "JavaScript",
-        readTime: "11 phút đọc",
-        tags: ["JavaScript", "React", "Hooks"],
-        content: `
+  },
+  {
+    id: 6,
+    title: "React Hooks với JavaScript: useState và useEffect",
+    excerpt: "Hiểu sâu về hai hooks cơ bản nhất trong React - useState để quản lý state và useEffect để xử lý side effects.",
+    date: "12/08/2024",
+    category: "JavaScript",
+    readTime: "11 phút đọc",
+    tags: ["JavaScript", "React", "Hooks"],
+    content: `
 ## React Hooks là gì?
 
 Hooks (React 16.8+) cho phép sử dụng state và React features trong functional components, không cần class components nữa.
@@ -1845,16 +1845,16 @@ function Settings() {
 
 useState và useEffect là foundation của React Hooks. Master hai hooks này để xây dựng powerful functional components!
         `
-    },
-    {
-        id: 7,
-        title: "JPA và Hibernate: Quản lý database trong Java",
-        excerpt: "Tìm hiểu cách sử dụng JPA và Hibernate để ánh xạ đối tượng Java với database, bao gồm relationships và queries.",
-        date: "05/08/2024",
-        category: "Java",
-        readTime: "13 phút đọc",
-        tags: ["Java", "JPA", "Hibernate", "Database"],
-        content: `
+  },
+  {
+    id: 7,
+    title: "JPA và Hibernate: Quản lý database trong Java",
+    excerpt: "Tìm hiểu cách sử dụng JPA và Hibernate để ánh xạ đối tượng Java với database, bao gồm relationships và queries.",
+    date: "05/08/2024",
+    category: "Java",
+    readTime: "13 phút đọc",
+    tags: ["Java", "JPA", "Hibernate", "Database"],
+    content: `
 ## JPA và Hibernate là gì?
 
 **JPA (Java Persistence API)** là specification để ORM (Object-Relational Mapping) trong Java. **Hibernate** là implementation phổ biến nhất của JPA.
@@ -2270,16 +2270,16 @@ JPA/Hibernate đơn giản hóa database operations trong Java. Master các conc
 
 Practice với real projects để hiểu sâu hơn!
         `
-    },
-    {
-        id: 8,
-        title: "Closure và Scope trong JavaScript",
-        excerpt: "Giải mã khái niệm closure - một tính năng mạnh mẽ của JavaScript giúp tạo private variables và factory functions.",
-        date: "28/07/2024",
-        category: "JavaScript",
-        readTime: "7 phút đọc",
-        tags: ["JavaScript", "Closures", "Scope"],
-        content: `
+  },
+  {
+    id: 8,
+    title: "Closure và Scope trong JavaScript",
+    excerpt: "Giải mã khái niệm closure - một tính năng mạnh mẽ của JavaScript giúp tạo private variables và factory functions.",
+    date: "28/07/2024",
+    category: "JavaScript",
+    readTime: "7 phút đọc",
+    tags: ["JavaScript", "Closures", "Scope"],
+    content: `
 ## Closure là gì?
 
 **Closure** là function có thể access variables từ outer function scope, ngay cả sau khi outer function đã return.
@@ -2723,16 +2723,16 @@ Closures là một trong những concepts quan trọng nhất của JavaScript:
 
 Master closures để viết clean, maintainable JavaScript code!
         `
-    },
-    {
-        id: 9,
-        title: "Xử lý Exception trong Java: Best Practices",
-        excerpt: "Học cách xử lý ngoại lệ đúng cách trong Java với try-catch, custom exceptions và các pattern phổ biến.",
-        date: "20/07/2024",
-        category: "Java",
-        readTime: "10 phút đọc",
-        tags: ["Java", "Exception Handling", "Error Management"],
-        content: `
+  },
+  {
+    id: 9,
+    title: "Xử lý Exception trong Java: Best Practices",
+    excerpt: "Học cách xử lý ngoại lệ đúng cách trong Java với try-catch, custom exceptions và các pattern phổ biến.",
+    date: "20/07/2024",
+    category: "Java",
+    readTime: "10 phút đọc",
+    tags: ["Java", "Exception Handling", "Error Management"],
+    content: `
 ## Exception là gì?
 
 **Exception** là event xảy ra trong runtime làm gián đoạn normal flow của program. Java có exception hierarchy:
@@ -3253,20 +3253,20 @@ Key takeaways:
 
 Practice với real scenarios để master exception handling!
         `
-    },
+  },
 ];
 
 export {
-    words,
-    abilities,
-    logoIconsList,
-    counterItems,
-    expCards,
-    expLogos,
-    testimonials,
-    socialImgs,
-    techStackIcons,
-    techStackImgs,
-    navLinks,
-    blogPosts,
+  words,
+  abilities,
+  logoIconsList,
+  counterItems,
+  expCards,
+  expLogos,
+  testimonials,
+  socialImgs,
+  techStackIcons,
+  techStackImgs,
+  navLinks,
+  blogPosts,
 };
