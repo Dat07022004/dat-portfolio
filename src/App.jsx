@@ -1,4 +1,4 @@
-import LogoSection from "./components/LogoSection"
+import LogoSection from "./sections/LogoSection"
 import NavBar from "./components/NavBar"
 import ExperienceSection from "./sections/ExperienceSection"
 import FeatureCards from "./sections/FeatureCards"
