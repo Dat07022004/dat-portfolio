@@ -47,9 +47,14 @@ const NavBar = () => {
                     </ul>
                 </nav>
 
-                <a href="#contact" className='contact-btn group'>
-                    <div className='inner'>
-                        Contact Me
+                <a
+                    href="/files/NguyenThanhDat_CV.pdf"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="contact-btn group"
+                >
+                    <div className="inner">
+                        View My CV
                     </div>
                 </a>
             </div>
